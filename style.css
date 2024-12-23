@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#marketplace {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#assets-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#assets-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#assets-list li:last-child {
+    border-bottom: none;
+}
+
+#create-asset-form {
+    margin-top: 20px;
+}
+
+#create-asset-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#create-asset-button:hover {
+    background-color: #3e8e41;
+}
