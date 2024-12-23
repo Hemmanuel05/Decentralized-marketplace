@@ -1,0 +1,15 @@
+{
+  "name": "decentralized-marketplace",
+  "version": "1.0.0",
+  "description": "A decentralized marketplace built on blockchain technology",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server"
+  },
+  "dependencies": {
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
